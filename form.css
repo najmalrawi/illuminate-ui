@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	vertical-align: top;
+}
+body {
+	padding: 3rem;
+}
+ul {
+	list-style: none;
+	list-style-type: none;
+}
+
+.illumEnum {
+	font-family: 'Comfortaa';
+	border: 1px solid #AF002A;
+}
+.illumPick {
+	display: flex;
+	align-items: center;
+}
+.illumPick .illumText {
+	padding: 0.5rem;
+	display: flex;
+	flex: 1;
+	cursor: pointer;
+}
+.illumIcon {
+	padding: 0.5rem;
+	display: flex;
+}
+ul {
+	border-top: 1px solid #AF002A;
+	background-color: white;
+	max-height: 80px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+ul > li {
+	display: flex;
+}
+ul > li:hover .illumText {
+	background-color: #E0E0E0;
+}
+ul > li .illumText {
+	display: flex;
+	flex: 1;
+	padding: 0.5rem;
+	cursor: pointer;
+}
